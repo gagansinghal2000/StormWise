@@ -1,0 +1,17 @@
+File,Field,Description,Units
+sites CSV,asset_id,Fictional overflow identifier,text
+sites CSV,latitude / longitude,Illustrative map coordinates,decimal degrees
+sites CSV,annual_spill_events,Synthetic annual event count,events/year
+sites CSV,annual_spill_duration_hours,Synthetic total annual duration,hours/year
+sites CSV,annual_spill_volume_m3,Synthetic annual volume,m3/year
+sites CSV,receiving_water_sensitivity_0_100,Synthetic sensitivity indicator,0–100
+options CSV,intervention_type,Illustrative intervention family,category
+options CSV,capex_gbp / annual_opex_gbp,Synthetic capital and annual operating costs,GBP
+options CSV,spill_frequency_reduction_pct,Assumed event-count reduction,percent
+options CSV,spill_duration_reduction_pct,Assumed duration reduction,percent
+options CSV,spill_volume_reduction_pct,Assumed volume reduction,percent
+options CSV,environmental_benefit_0_100,Synthetic environmental benefit indicator,0–100
+options CSV,land_availability_0_100,Synthetic land availability score,0–100
+options CSV,site_accessibility_0_100,Synthetic site access score,0–100
+options CSV,ground_suitability_0_100,Synthetic ground suitability score,0–100
+options CSV,planning_utility_suitability_0_100,Synthetic planning/utility suitability score,0–100
